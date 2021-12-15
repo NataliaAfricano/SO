@@ -47,6 +47,7 @@ public class PrincipalPanel extends JPanel{
 					while(x1/2 < SIZE_WIDHT/2) {
 						x1 ++;
 						repaint();
+						updateUI();
 						try {
 							Thread.sleep(20);
 						} catch (InterruptedException e) {
@@ -55,6 +56,7 @@ public class PrincipalPanel extends JPanel{
 					}
 					x1= SIZE_WIDHT/4;
 					repaint();
+					updateUI();
 				}
 				
 			}
